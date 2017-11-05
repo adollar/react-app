@@ -1,0 +1,19 @@
+#mainTitle {
+    margin-bottom:30px;
+}
+
+#mainTitle h1 {
+    color: white;
+}
+
+#underTitle {
+    display: block;
+    overflow: hidden;
+    margin-bottom:30px;
+}
+
+#underTitle > div{
+    width:50%;
+    float:left;
+    font-size:30px;
+}

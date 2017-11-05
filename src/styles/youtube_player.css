@@ -1,0 +1,30 @@
+#player {
+    clear: both;
+}
+
+#player_with_subsc {
+    width: 660px;
+    margin: 0 auto;
+}
+
+.playerWrapper {
+    padding:10px;
+    background-color: #fff; 
+    border-radius:10px;
+}
+
+#control_player {
+    font-size: 40px;
+    clear: both;
+    float: right;
+}
+
+#control_player i {
+    margin: 5px;
+    cursor: pointer;
+    color: brown;
+}
+
+#close_player:hover, #open_player:hover {
+    color: slategrey;
+}
