@@ -5,12 +5,14 @@
 #player_with_subsc {
     width: 660px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .playerWrapper {
     padding:10px;
     background-color: #fff; 
     border-radius:10px;
+    margin-bottom:30px;
 }
 
 #control_player {

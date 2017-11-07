@@ -1,8 +1,12 @@
 import React, {Component} from 'react';
+import {
+    Grid,
+    Image
+} from 'semantic-ui-react';
 
 import {YoutubePlayer} from './YoutubePlayer/index'
 import {Title} from './Title/index'
-import {Slider} from './Slider/index'
+import {Carousel} from './Carousel/index'
 
 import '../../styles/content.css'
 
@@ -13,18 +17,9 @@ export class Content extends Component
             <div className="Content container-fluid">
                 <div className="row">
                     <div className="seo-score scrollme">
-                        <div className="container">
-                            <div className="row">
-                                <div className="seo-score-content align-center">
-                                    <div className="heading align-center">
-                                        <Title/>
-                                        <YoutubePlayer/>
-                                        <Slider/>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <Title/>
+                        <YoutubePlayer/>
+                        <Carousel/>
                     </div>
                 </div>
             </div>

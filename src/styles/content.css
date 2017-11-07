@@ -1,3 +1,17 @@
 .Content {
     margin-top: 100px;
 }
+
+.MainTitleWrapper{
+    width: 60%;
+    margin:0 auto;
+}
+
+#mainTitle{
+    text-align:center;
+}
+
+.left_text, .right_text{
+    width:50%;
+    text-align:center;
+}
