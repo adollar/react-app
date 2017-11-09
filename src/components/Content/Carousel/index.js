@@ -18,11 +18,13 @@ export class Carousel extends Component
             slidesToScroll: 1,
         };
         return (
-            <Slider {...settings} >
-                <div><img src='http://placekitten.com/g/900/300'/></div>
-                <div><img src='http://placekitten.com/g/900/300'/></div>
-                <div><img src='http://placekitten.com/g/900/300'/></div>
-            </Slider>
+            <div className="Carousel">
+                <Slider {...settings} >
+                    <div><img src='http://placekitten.com/g/900/300' alt="kitten1"/></div>
+                    <div><img src='http://placekitten.com/g/900/300' alt="kitten2"/></div>
+                    <div><img src='http://placekitten.com/g/900/300' alt="kitten3"/></div>
+                </Slider>
+            </div>
         )
     }
 }

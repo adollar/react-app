@@ -1,30 +1,36 @@
 import React, {Component} from 'react';
+import {HeaderCounter} from './Counter/index';
+
 import logo from '../../img/logo.png';
+import '../../styles/header.css'
 
 export class Header extends Component
 {
     render() {
         return (
             <header className="header" id="site-header">
-                <div className="container">
-                    <div className="header-content-wrapper">
-                        <div className="logo">
-                            <img src={logo} alt="Hyip EV SSL"/>
-                        </div>
-                        <nav id="primary-menu" className="primary-menu">
-                            <div>
-                                <span id="location">location</span>
-                            </div>
-                            <div>
-                                <span>Some text</span>
-                                <span id="rnd_num_negative">rnd_num_negative</span>
-                            </div>
-                            <div>
-                                <span>Some text</span>
-                                <span id="rnd_num_positive">rnd_num_positive</span>
-                            </div>
-                        </nav>
+                <div className="headerWrapper">
+                    <div className="logo">
+                        <img src={logo} alt="Hyip EV SSL"/>
                     </div>
+                    <nav id="primary-menu" className="primary-menu">
+                        <div className="header_info_block">
+                            <span className="smCntrTitle">cuntr+</span>
+                            <span id="location">location</span>
+                        </div>
+                        <div className="header_info_block">
+                            <span className="smCntrTitle">blablalba</span>
+                            <span className="smCntr" id="rnd_num_negative">
+                            <HeaderCounter/>
+                        </span>
+                        </div>
+                        <div className="header_info_block">
+                            <span className="smCntrTitle">loremlorem</span>
+                            <span className="smCntr" id="rnd_num_positive">
+                                <HeaderCounter/>
+                            </span>
+                        </div>
+                    </nav>
                 </div>
             </header>
         );

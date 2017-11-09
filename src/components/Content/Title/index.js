@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import {Counter} from '../Counter/index';
+
 import '../../../styles/title.css';
 
 export class Title extends Component
@@ -11,7 +13,9 @@ export class Title extends Component
                 </div>
                 <div id="underTitle" className="col-md-8 col-md-offset-2">
                     <div className="left_text">Left subtitle</div>
-                    <div className="right_text">12321</div>
+                    <div className="right_text">
+                       <Counter/> 
+                    </div>
                 </div>
             </div>
         );

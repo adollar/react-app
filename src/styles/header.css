@@ -1,0 +1,37 @@
+.headerWrapper {
+    background: #fbfbfb;
+    width: 60%;
+    height: 115px;
+    margin: 0 20%;
+    z-index: 20;
+    left: 0;
+    top: 0;
+}
+
+.logo {
+    padding-top: 12px;
+}
+
+.logo img {
+    width: 260px;
+}
+
+.header_info_block {
+    display: block;
+    overflow: hidden;
+    height: 32px;
+    vertical-align: middle;
+}
+
+.smCntrTitle {
+    width: 200px;
+    height: 100%;
+    float: left;
+    display: block;
+}
+
+.smCntr {
+    height: 100%;
+    float: right;
+    display: block;
+}
