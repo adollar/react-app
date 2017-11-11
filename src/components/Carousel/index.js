@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Slider from 'react-slick';
-import '../../../styles/slider.css';
+import '../../assets/styles/slider.css';
 
 export class Carousel extends Component
 {

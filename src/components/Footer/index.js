@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import contact from '../../img/contact9.png'
 
-import '../../styles/footer.css';
+import contact from '../../assets/img/contact9.png'
+import '../../assets/styles/footer.css';
 
 export class Footer extends Component
 {

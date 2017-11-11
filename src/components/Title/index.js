@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Counter} from '../Counter/index';
 
-import '../../../styles/title.css';
+import '../../assets/styles/title.css';
 
 export class Title extends Component
 {

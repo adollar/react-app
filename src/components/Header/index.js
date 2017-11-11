@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {HeaderCounter} from './Counter/index';
 
 import logo from '../../img/logo.png';
-import '../../styles/header.css'
+import '../../assets/styles/header.css'
 
 export class Header extends Component
 {
