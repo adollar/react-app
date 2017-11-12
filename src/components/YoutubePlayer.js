@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import YouTube from 'react-youtube';
-import '../../assets/styles/youtube_player.css';
+import '../assets/styles/youtube_player.css';
 
 
 export class YoutubePlayer extends Component

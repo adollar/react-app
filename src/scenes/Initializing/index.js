@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import {Header} from '../../components/Header/index'
-import {Title} from '../../components/Title/index'
-import {Footer} from "../../components/Footer/index";
+import {Title} from '../../components/Title'
+import {Footer} from "../../components/Footer";
+import {ProgressBar} from "../../components/Progress";
 
 export default class Initializing extends Component
 {
@@ -10,6 +11,7 @@ export default class Initializing extends Component
             <initializing>
                 <Header/>
                 <Title/>
+                <ProgressBar/>
                 <Footer/>
             </initializing>
         );

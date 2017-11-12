@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import MainMenu from "./components/MainMenu/index";
-import {Main} from "./components/Main/index";
+import MainMenu from "./components/MainMenu";
+import {Main} from "./components/Main";
 
 import './assets/styles/main.css';
 

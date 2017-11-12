@@ -3,10 +3,10 @@ import {
     Switch,
     Route
 } from 'react-router-dom'
-import {Home} from '../../scenes/Home/index'
-import Initializing from '../../scenes/Initializing/index'
+import {Home} from '../scenes/Home/index'
+import Initializing from '../scenes/Initializing/index'
 
-import '../../assets/styles/content.css'
+import '../assets/styles/content.css'
 
 export class Main extends Component
 {

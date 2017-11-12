@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import {HeaderCounter} from './Counter/index';
+import {HeaderCounter} from './HeaderCounter';
 
-import logo from '../../img/logo.png';
+import logo from '../../assets/img/logo.png';
 import '../../assets/styles/header.css'
 
 export class Header extends Component
