@@ -9,9 +9,7 @@ export class ProgressBar extends Component
         return (
             <div className="ProgressBar">
                 <div className="progressBarWrapper">
-                    <Progress percent={60} size='large' color='teal'>
-                        large
-                        
+                    <Progress percent={20} size='large' color='teal'>
                     </Progress>
                 </div>
             </div>

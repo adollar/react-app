@@ -1,0 +1,86 @@
+#updatable_fields {
+    width: 50%;
+    margin: 0 auto;
+    height: 100%;
+    margin-bottom: 40px;
+}
+
+#updatable_fields .wrapper {
+    width: 100%;
+    background-color: lightgray;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+#updatable_fields .wrapper ul {
+    padding: 0;
+    margin: 0;
+}
+
+#updatable_fields .wrapper ul li.step {
+    list-style-type: none;
+    background-color: white;
+    position: relative;
+    margin-bottom: 7px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    overflow: hidden;
+    min-height: 30px;
+    cursor: pointer;
+}
+
+#updatable_fields .wrapper ul li.step:last-child {
+    margin-bottom: 0;
+}
+
+#updatable_fields .wrapper ul li.step:hover {
+    background-color: #e6faff;
+}
+
+#updatable_fields .wrapper ul li.step div.image {
+    font-size: 30px;
+    position: absolute;
+    height: 25px;
+    top: 0;
+    right: 10px;
+    color: green;
+}
+
+#updatable_fields .wrapper ul li.step div.text {
+    width: 90%;
+    text-align: start;
+}
+
+#updatable_fields .wrapper ul li.step div.text,
+#updatable_fields .wrapper ul li.step div.image {
+    display: inline-block;
+}
+
+#updatable_fields .wrapper ul li.step ul.sub_rows {
+    margin-top: 10px;
+}
+
+#updatable_fields .wrapper ul li.step ul.sub_rows li {
+    list-style-type: none;
+    width: 20%;
+    margin-bottom: 5px;
+}
+
+#updatable_fields .wrapper ul li ul.sub_rows li:last-child {
+    margin-bottom: 0;
+}
+
+#updatable_fields .wrapper ul li  ul.sub_rows li div.sub_text {
+    float: right;
+}
+
+#updatable_fields .wrapper ul li ul.sub_rows li div.sub_image {
+    color: green;
+    font-size: 18px;
+}
+
+#updatable_fields .wrapper ul li ul.sub_rows li div.sub_image,
+#updatable_fields .wrapper ul li ul.sub_rows li div.sub_text {
+    display: inline-block;
+}
