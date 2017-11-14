@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import {HeaderCounter} from './HeaderCounter';
+import {Counter} from '../Counter';
+import {Navigation} from "./Navigation";
 
 import '../../assets/styles/header.css'
-import {Navigation} from "./Navigation";
 
 export class Header extends Component
 {
@@ -13,19 +13,19 @@ export class Header extends Component
                     <Navigation/>
                     <nav id="primary-menu" className="primary-menu">
                         <div className="header_info_block">
-                            <span className="smCntrTitle">cuntr+</span>
+                            <span className="smCntrTitle">Ваш город</span>
                             <span id="location">location</span>
                         </div>
                         <div className="header_info_block">
-                            <span className="smCntrTitle">blablalba</span>
+                            <span className="smCntrTitle">Позитивный счетчик</span>
                             <span className="smCntr" id="rnd_num_negative">
-                            <HeaderCounter/>
+                            <Counter cntr={this.props.cntr.positiveCntr}/>
                         </span>
                         </div>
                         <div className="header_info_block">
-                            <span className="smCntrTitle">loremlorem</span>
+                            <span className="smCntrTitle">Негативный счетчик</span>
                             <span className="smCntr" id="rnd_num_positive">
-                                <HeaderCounter/>
+                                <Counter cntr={this.props.cntr.negativeCntr}/>
                             </span>
                         </div>
                     </nav>
