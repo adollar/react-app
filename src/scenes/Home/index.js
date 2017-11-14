@@ -13,7 +13,7 @@ export class Home extends Component
             <div>
                 <Header/>
                 <Title/>
-                <YoutubePlayer/>
+                {/*<YoutubePlayer/>*/}
                 <Carousel/>
                 <Registration/>
                 <Footer/>

@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {HeaderCounter} from './HeaderCounter';
 
-import logo from '../../assets/img/logo.png';
 import '../../assets/styles/header.css'
+import {Navigation} from "./Navigation";
 
 export class Header extends Component
 {
@@ -10,9 +10,7 @@ export class Header extends Component
         return (
             <header className="header" id="site-header">
                 <div className="headerWrapper">
-                    <div className="logo">
-                        <img src={logo} alt="Hyip EV SSL"/>
-                    </div>
+                    <Navigation/>
                     <nav id="primary-menu" className="primary-menu">
                         <div className="header_info_block">
                             <span className="smCntrTitle">cuntr+</span>

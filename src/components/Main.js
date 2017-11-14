@@ -8,14 +8,14 @@ import Initializing from '../scenes/Initializing/index'
 
 import '../assets/styles/content.css'
 
-export class Main extends Component
+export default class Main extends Component
 {
     render() {
         return (
             <main>
                 <Switch>
                     <Route exact path='/' component={Home}/>
-                    <Route path='/initializing' component={Initializing}/>
+                    <Route path='/steps' component={Initializing}/>
                 </Switch>
             </main>
         );
