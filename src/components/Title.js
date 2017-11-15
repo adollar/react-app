@@ -6,7 +6,6 @@ import '../assets/styles/title.css';
 export class Title extends Component
 {
     render() {
-        console.log(this.props, 'title');
         return (
             <div className="MainTitleWrapper">
                 <div id="mainTitle">

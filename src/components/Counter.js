@@ -5,7 +5,6 @@ export class Counter extends Component
 {
     constructor(props) {
         super(props);
-        console.log(this.props, 'counter');
         this.state = {
             cntrValue: this.props.cntr.startValue,
             step: this.props.cntr.step 
